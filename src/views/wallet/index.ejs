@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html translate="no" data-dpr="1" style="font-size: 39px;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="csrf-token" content="" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="noindex,nofollow">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <title>DiuWin</title>
+    <link href="/css/wallet/main.css" rel="stylesheet" />
+    <link href="/css/wallet/chunk_2-1.css" rel="stylesheet" />
+    <link href="/css/wallet/chunk_2-2.css" rel="stylesheet" />
+    <link href="/css/wallet/chunk_2-3.css" rel="stylesheet" />
+     
+    <link rel="shortcut icon" href="/assets/png/h5setting_20240724134842u3j2.png" type="image/x-icon">
+    <style>
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            background-color: #090909;
+            padding: 0;
+            margin: 0;
+        }
+
+        #image_box {
+            width: 100%;
+            gap: 0.28rem;
+        }
+
+        #image_box .images_21 {
+            width: 25%;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: column;
+            flex-direction: column;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+            -webkit-box-pack: start;
+            -webkit-justify-content: flex-start;
+            gap: 0.13333rem;
+        }
+
+        #image_box .images_21 img {
+            width: 1rem;
+            
+            box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 0.3rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #image_box .images_21 p {
+            text-align: center;
+            color: black;
+            font-size: 0.32rem;
+            font-weight: 500;
+            font-family: inherit;
+        }
+
+        @media (max-width:600px) {
+            #image_box .images_21 img {
+                width: 1.367rem;
+                padding: 0.25rem;
+                background: ;
+                box-shadow: 5px 5px 5px 5px rgba(242, 241, 255, 0);
+                border-radius: 0.39rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+.mian .wallet-user[data-v-7b283485] {
+    padding: 0.3rem 0.5rem 1rem;
+    width: 100%;
+    background: -webkit-linear-gradient(left, #61a9ff 0%, #59b0ea 100%);
+    background: linear-gradient(90deg, #3BAF4C 0%, #00D08A 100%);
+    }
+    
+
+
+    .mian .wallet-box .box .balance[data-v-7b283485] {
+    background: linear-gradient(180deg, #374993 0%, #374993 100%) !important;
+    
+    }
+
+    .mian .wallet-box .box .balance[data-v-7b283485] {
+    box-shadow: 0 0rem 0.5rem #ffffff00 !important;
+    }
+
+
+
+    .progressBars[data-v-be467d1a] {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0rem;
+}
+
+.progressBars>div[data-v-be467d1a] {
+    width: 50%;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+h3 {
+    color: #5eacf7;
+}
+
+span {
+    color: black;
+}
+
+.gameList[data-v-be467d1a] {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    gap: .26667rem;
+    -webkit-flex-direction: initial;
+    flex-direction: initial;
+    width: 100%;
+    margin-top: 0.33333rem;
+    margin-bottom: .66667rem;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+.gameList>div[data-v-be467d1a] {
+    width: 31%;
+    min-height: 2.13333rem;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: .13333rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    gap: .13333rem;
+    padding: 0 .2rem;
+    color: #000;
+}
+
+
+
+.mian .wallet-user .img[data-v-7b283] {
+    height: 0.8rem;
+    width: 0.8rem;
+    border-radius: 0rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.mian .wallet-box[data-v-7b283485] {
+    padding: 0 .53333rem;
+    margin-top: -0.5rem;
+}
+
+.mian {
+    
+    max-width: 100% !important;
+}
+
+.navbar[data-v-106b99c8] {
+    
+    max-width: 100% !important;
+}    
+
+
+.van-circle__text {
+    color: #000 !important;
+}
+
+h3.money {
+    color: black;
+    font-size: 0.29rem;
+}
+
+    </style>
+</head>
+
+<body style="font-size: 12px;">
+    <div id="app">
+        <div data-v-7b283485="" class="mian">
+            <div data-v-106b99c8="" data-v-7b283485="" class="navbar">
+                <div data-v-106b99c8="" class="navbar-left" onclick="location.href='/home'">
+                    <div data-v-a9660e98="" data-v-106b99c8="" class="c-row c-row-middle-center">
+                        <i class="fa-light fa-angle-left fa-fade fa-xl center" style="color: #FFF"></i>
+                    </div>
+                </div>
+                <div data-v-106b99c8="" class="navbar-title"> Wallet </div>
+                <div data-v-106b99c8="" class="navbar-right" onclick="location.href='/keFuMenu'">
+                    <div data-v-7b283485="" data-v-106b99c8="" class="c-row">
+                        <i class="fa-fade fa center" style="color: #FFF">
+                            <img data-v-7b283485="" data-v-106b99c8="" src="/images/audio.webp" class="audio">
+                        </i>
+                    </div>
+                </div>
+            </div>
+            <div data-v-7b283485="" class="wallet">
+                <div data-v-7b283485="" class="wallet-user c-tc">
+                   
+                  
+                  <div data-v-7b283="" class="txt c-row c-row-middle">
+                   
+                </div>
+                <div data-v-7b283485="" class="c-row balanceMoney c-row-middle-center">
+                  <img  width="50px" height="50px" src="/assets/png/wallets-dad944e7.png" class="m222 img"></div> 
+                  
+                <div data-v-7b283485="" class="c-row balanceMoney c-row-middle-center">
+                  
+                  <div data-v-7b283485="" class="money" style="color: white; font-size: 0.6rem; font-weight: 400; margin-top: 8px;">
+                      <!---->
+                      <div data-v-7b283485="">₹<span data-v-7b283485="" class="p-l-10">Loading...</span>
+                      </div>
+                  </div>
+                  
+              </div>
+
+              <div data-v-7b283485="" class="c-row balanceMoney c-row-middle-center">
+                <p style="color: white; margin-top: 12px;">Total Balance</p></div>
+                    <!--<div data-v-7b283485="" class="name"></div>-->
+                    
+                </div>
+                <div data-v-7b283485="" class="wallet-box">
+                    <div data-v-7b283485="" class="box">
+                        
+                        <!--<div data-v-7b283485="" class="title">Wallet</div>-->
+                        
+
+
+                        <div data-v-be467d1a="" class="progressBars">
+                            <div data-v-be467d1a="" class="progressBarsL">
+                              <div data-v-be467d1a="" class="van-circle">
+                                <svg viewBox="0 0 1100 1100">
+                                  <defs>
+                                    <linearGradient id="van-circle-0" x1="100%" y1="0%" x2="0%" y2="0%">
+                                      <stop offset="0%" stop-color="#1AB266">
+                                      </stop>
+                                      <stop offset="100%" stop-color="#4DD8EF">
+                                      </stop>
+                                    </linearGradient>
+                                  </defs>
+                                  <path class="van-circle__layer" d="M 550 550 m 0, -500 a 500, 500 0 1, 1 0, 1000 a 500, 500 0 1, 1 0, -1000"
+                                  style="fill: none; stroke: #1AB26696; stroke-width: 100px;">
+                                  </path>
+                                  <path d="M 550 550 m 0, -500 a 500, 500 0 1, 1 0, 1000 a 500, 500 0 1, 1 0, -1000"
+                                  class="van-circle__hover" stroke="url(#van-circle-0)" style="stroke: url(&quot;#van-circle-0&quot;); stroke-width: 101px; stroke-linecap: butt; stroke-dasharray: 0px, 3140px;">
+                                  </path>
+                                </svg>
+                                <div class="van-circle__text">
+                                  100%
+                                </div>
+                              </div>
+                              <h3 data-v-be467d1a="" class="money" style="margin-top: 8px; color: #000 !important;">
+                                ₹0.00
+                              </h3>
+                              <span data-v-be467d1a="" style="margin-top: 8px; color: #000 !important;">
+                                Main wallet
+                              </span>
+                            </div>
+                            <div data-v-be467d1a="" class="progressBarsR">
+                              <div data-v-be467d1a="" class="van-circle">
+                                <svg viewBox="0 0 1100 1100">
+                                  <defs>
+                                    <linearGradient id="van-circle-1" x1="100%" y1="0%" x2="0%" y2="0%">
+                                      <stop offset="0%" stop-color="#3C9CF6">
+                                      </stop>
+                                      <stop offset="100%" stop-color="#4DD8EF">
+                                      </stop>
+                                    </linearGradient>
+                                  </defs>
+                                  <path class="van-circle__layer" d="M 550 550 m 0, -500 a 500, 500 0 1, 1 0, 1000 a 500, 500 0 1, 1 0, -1000"
+                                  style="fill: none; stroke: #1AB266; stroke-width: 100px;">
+                                  </path>
+                                  <path d="M 550 550 m 0, -500 a 500, 500 0 1, 1 0, 1000 a 500, 500 0 1, 1 0, -1000"
+                                  class="van-circle__hover" stroke="url(#van-circle-1)" style="stroke: url(&quot;#van-circle-1&quot;); stroke-width: 101px; stroke-linecap: butt; stroke-dasharray: 0px, 3140px;">
+                                  </path>
+                                </svg>
+                                <div class="van-circle__text">
+                                  0%
+                                </div>
+                              </div>
+                              <h3 data-v-be467d1a="" style="margin-top: 8px; color: #000 !important;"">
+                                ₹0.00
+                              </h3>
+                              <span data-v-be467d1a="" style="margin-top: 8px; color: #000 !important;">
+                                3rd party wallet
+                              </span>
+                            </div>
+                          </div>
+
+
+
+
+
+                        <div data-v-7b283485="" class="c-row c-row-between total-btn m-t-30" id="image_box">
+                            <div class="images_21" onclick="location.href='/wallet/recharge'">
+                                <img src="/images/recharge.png">
+                                <p>Deposit</p>
+                            </div>
+                            <div class="images_21" onclick="location.href='/wallet/withdrawal'">
+                                <img src="/images/withdraws.png">
+                                <p>Withdraw</p>
+                            </div>
+                            <div class="images_21" onclick="location.href='/wallet/rechargerecord'">
+                                <img src="/images/rechargeHistory.png">
+                                <p>Deposit History</p>
+                            </div>
+                            <div class="images_21" onclick="location.href='/wallet/withdrawalrecord'">
+                                <img src="/images/withdrawHistory.png">
+                                <p>Withdraw History</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div data-v-be467d1a="" class="gameList">
+                        <div data-v-be467d1a="" class="box" style="background-image: url(&quot;/assets/png/&quot;);">
+                          <h3 data-v-be467d1a="" class="money">
+                            0.00
+                          </h3>
+                          <span data-v-be467d1a="" style="font-size: 0.29rem;">
+                            Lottery
+                          </span>
+                        </div>
+                        <div data-v-be467d1a="" class="box" style="background-image: url(&quot;/assets/png/&quot;);">
+                          <h3 data-v-be467d1a="" class="money">
+                            0.00
+                          </h3>
+                          <span data-v-be467d1a="" style="font-size: 0.29rem;">
+                            TB_Chess
+                          </span>
+                        </div>
+                        <div data-v-be467d1a="" class="box" style="background-image: url(&quot;/assets/png/&quot;);">
+                          <h3 data-v-be467d1a="" class="money">
+                            0.00
+                          </h3>
+                          <span data-v-be467d1a="" style="font-size: 0.29rem;">
+                            Wickets9
+                          </span>
+                        </div>
+                        <div data-v-be467d1a="" class="box" style="background-image: url(&quot;/assets/png/&quot;);">
+                          <h3 data-v-be467d1a="" class="money">
+                            0.00
+                          </h3>
+                          <span data-v-be467d1a="" style="font-size: 0.29rem;">
+                            JILI
+                          </span>
+                        </div>
+                        <div data-v-be467d1a="" class="box" style="background-image: url(&quot;/assets/png/&quot;);">
+                          <h3 data-v-be467d1a="" class="money">
+                            0.00
+                          </h3>
+                          <span data-v-be467d1a="" style="font-size: 0.29rem;">
+                            PG
+                          </span>
+                        </div>
+                        <div data-v-be467d1a="" class="box" style="background-image: url(&quot;/assets/png/&quot;);">
+                          <h3 data-v-be467d1a="" class="money">
+                            0.00
+                          </h3>
+                          <span data-v-be467d1a="" style="font-size: 0.29rem;">
+                            DG
+                          </span>
+                        </div>
+                        <div data-v-be467d1a="" class="box" style="background-image: url(&quot;/assets/png/&quot;);">
+                          <h3 data-v-be467d1a="" class="money">
+                            0.00
+                          </h3>
+                          <span data-v-be467d1a="" style="font-size: 0.29rem;">
+                            SaBa
+                          </span>
+                        </div>
+                        <div data-v-be467d1a="" class="box" style="background-image: url(&quot;/assets/png/&quot;);">
+                          <h3 data-v-be467d1a="" class="money">
+                            0.00
+                          </h3>
+                          <span data-v-be467d1a="" style="font-size: 0.29rem;">
+                            MG
+                          </span>
+                        </div>
+                        <div data-v-be467d1a="" class="box" style="background-image: url(&quot;/assets/png/&quot;);">
+                          <h3 data-v-be467d1a="" class="money">
+                            0.00
+                          </h3>
+                          <span data-v-be467d1a="" style="font-size: 0.29rem;">
+                            JDB
+                          </span>
+                        </div>
+                        <div data-v-be467d1a="" class="box" style="background-image: url(&quot;/assets/png/&quot;);">
+                          <h3 data-v-be467d1a="" class="money">
+                            0.00
+                          </h3>
+                          <span data-v-be467d1a="" style="font-size: 0.29rem;">
+                            CQ9
+                          </span>
+                        </div>
+                        <div data-v-be467d1a="" class="box" style="background-image: url(&quot;/assets/png/&quot;);">
+                          <h3 data-v-be467d1a="" class="money">
+                            0.00
+                          </h3>
+                          <span data-v-be467d1a="" style="font-size: 0.29rem;">
+                            TB
+                          </span>
+                        </div>
+                        <div data-v-be467d1a="" class="box" style="background-image: url(&quot;/assets/png/&quot;);">
+                          <h3 data-v-be467d1a="" class="money">
+                            0.00
+                          </h3>
+                          <span data-v-be467d1a="" style="font-size: 0.29rem;">
+                            EVO_Video
+                          </span>
+                        </div>
+                        <div data-v-be467d1a="" class="box" style="background-image: url(&quot;/assets/png/&quot;);">
+                          <h3 data-v-be467d1a="" class="money">
+                            0.00
+                          </h3>
+                          <span data-v-be467d1a="" style="font-size: 0.29rem;">
+                            AG_Video
+                          </span>
+                        </div>
+                        <div data-v-be467d1a="" class="box" style="background-image: url(&quot;/assets/png/&quot;);">
+                          <h3 data-v-be467d1a="" class="money">
+                            0.00
+                          </h3>
+                          <span data-v-be467d1a="" style="font-size: 0.29rem;">
+                            Card365
+                          </span>
+                        </div>
+                        <div data-v-be467d1a="" class="box" style="background-image: url(&quot;/assets/png/&quot;);">
+                          <h3 data-v-be467d1a="" class="money">
+                            0.00
+                          </h3>
+                          <span data-v-be467d1a="" style="font-size: 0.29rem;">
+                            V8Card
+                          </span>
+                        </div>
+                        <div data-v-be467d1a="" class="box" style="background-image: url(&quot;/assets/png/&quot;);">
+                          <h3 data-v-be467d1a="" class="money">
+                            0.00
+                          </h3>
+                          <span data-v-be467d1a="" style="font-size: 0.29rem;">
+                            SEXY_Video
+                          </span>
+                        </div>
+                      </div>
+
+
+
+
+
+                </div>
+            </div>
+            <head>
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-thin.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css">
+    <link rel="stylesheet" href="./index_files/index-96409872.css">
+    <link rel="stylesheet" href="../index_files/index-96409872.css">
+    <link rel="stylesheet" href="../assets/css/index-3cf8aaa6.css"> 
+</head>
+<style>
+    .block-click {
+        pointer-events: none;  
+    }
+
+    .tabbar__container-item[data-v-76c247f8]:nth-of-type(3) svg {
+    position: absolute;
+    bottom: 0.8rem !important;
+    width: 0.86667rem !important;
+    height: 0.86667rem !important;
+    z-index: 3;
+}
+</style>
+
+  <div data-v-76c247f8="" class="tabbar__container"
+    style="--7688837a: &#39;Roboto&#39;, &#39;Inter&#39;, sans-serif;">
+    <div data-v-76c247f8="" class="tabbar__container-item" onclick="window.location='/home'">
+      <svg data-v-76c247f8="" xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56"
+        fill="none" class="">
+        <g clip-path="url(#clip0_226_251)">
+          <path fill="#1AB266" d="m7.664 14.856 1.112 1.662zm13.5-9.03-1.112-1.663zm6.672 0 1.112-1.663zm13.5 9.03-1.112 1.662zM6.552 13.193A8 8 0 0 0 3 19.843h4a4 4 0 0 1 1.776-3.325zm13.5-9.03-13.5 9.03 2.224 3.325 13.5-9.03zm8.896 0a8 8 0 0 0-8.896 0l2.224 3.325a4 4 0 0 1 4.448 0zm13.5 9.03-13.5-9.03-2.224 3.325 13.5 9.03zM46 19.843a8 8 0 0 0-3.552-6.65l-2.224 3.325A4 4 0 0 1 42 19.843zm0 21.185V19.843h-4v21.185zm-4 4a4 4 0 0 0 4-4h-4zm-14.474 0H42v-4H27.526zm-4-13.837v9.837h4V31.19zm-6.263 0h6.263v-4h-6.263zm0 9.837V31.19h-4v9.837zM7 45.028h6.263v-4H7zm-4-4a4 4 0 0 0 4 4v-4zm0-21.185v21.185h4V19.843zm29.507 1.286v1.03h4v-1.03zm-4.98 0h4.98v-4h-4.98zm0 1.03v-1.03h-4v1.03zm4.98 0h-4.98v4h4.98zm-8.98 0a4 4 0 0 0 4 4v-4zm4-5.03a4 4 0 0 0-4 4h4zm4.98 5.03v4a4 4 0 0 0 4-4zM13.263 41.029v4a4 4 0 0 0 4-4zm4-13.837a4 4 0 0 0-4 4h4zm19.244-6.062a4 4 0 0 0-4-4v4zm-8.98 10.061a4 4 0 0 0-4-4v4zm0 9.838h-4a4 4 0 0 0 4 4z" mask="#1AB266"></path>
+        </g>
+        <defs>
+          <lineargradient id="paint0_linear_226_251" x1="2.604" y1="52.0931" x2="2.604" y2="4.55225"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#374992"></stop>
+            <stop offset="1" stop-color="#4675d2"></stop>
+          </lineargradient>
+          <lineargradient id="paint0_linear_226_233" x1="6.5116" y1="52.7442" x2="6.5116" y2="3.90698"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#61a9ff"></stop>
+            <stop offset="1" stop-color="#59b0ea"></stop>
+          </lineargradient>
+          <clippath id="clip0_226_251">
+            <rect width="56" height="56" fill="white"></rect>
+          </clippath>
+        </defs>
+      </svg>
+      <span data-v-76c247f8="" onclick="window.location='/home'">Home</span>
+    </div>
+    <div data-v-76c247f8="" class="tabbar__container-item" onclick="window.location='/activity'">
+      <svg data-v-76c247f8="" xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56"
+        fill="none" class="">
+        <g clip-path="url(#clip0_226_254)">
+          <path stroke="#1AB266" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M38 30H10a6 6 0 0 0 0 12h28a6 6 0 0 0 0-12M36 22a8 8 0 1 0 0-16 8 8 0 0 0 0 16M5.414 15.414a2 2 0 0 1 0-2.828l6.172-6.172a2 2 0 0 1 2.828 0l6.172 6.172a2 2 0 0 1 0 2.828l-6.172 6.172a2 2 0 0 1-2.828 0z"></path>
+        </g>
+        <defs>
+          <lineargradient id="paint0_linear_226_254" x1="2.60074" y1="52.7442" x2="2.60074" y2="3.90503"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#374992"></stop>
+            <stop offset="1" stop-color="#4675d2"></stop>
+          </lineargradient>
+          <lineargradient id="paint0_linear_226_233" x1="6.5116" y1="52.7442" x2="6.5116" y2="3.90698"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#61a9ff"></stop>
+            <stop offset="1" stop-color="#59b0ea"></stop>
+          </lineargradient>
+          <clippath id="clip0_226_254">
+            <rect width="56" height="56" fill="white"></rect>
+          </clippath>
+        </defs>
+      </svg>
+      <span data-v-76c247f8="" onclick="window.location='/activity'">Activity</span>
+    </div>
+    
+    <div data-v-76c247f8="" class="tabbar__container-item" onclick="window.location='/promotion'">
+      <div data-v-c4b9aaee="" class="promotionBg"></div>
+      <svg data-v-c4b9aaee="" xmlns="http://www.w3.org/2000/svg" width="57" height="49" fill="none" viewBox="0 0 57 49" class="">
+        <path fill="#fff" fill-rule="evenodd" d="M8.939 1.501A4 4 0 0 1 12.062 0h32.155a4 4 0 0 1 3.124 1.501l7.738 9.673c.427.533.749 1.12.968 1.735H.233a5.99 
+        5.99 0 0 1 .967-1.735zM0 16.091h56.28a5.985 5.985 0 0 1-1.277 2.673l-23.79 28.549a4 4 0 0 1-6.146 0l-23.79-28.55A5.984 5.984 0 0 1 0 16.092m20.556 
+        5.936 7.195 10.102a.5.5 0 0 0 .816-.002l7.118-10.093a2.44 2.44 0 0 1 4.435 1.406v.2h-.223c-.326 0-.782.248-1.304.93-.506.663-6.466 8.724-9.651 
+        13.035a.975.975 0 0 1-1.563.007L17.32 24.26s-.394-.62-1.06-.62h-.14v-.195a2.445 2.445 0 0 1 4.436-1.418" clip-rule="evenodd">
+        </path>
+      </svg>
+      <span data-v-76c247f8="" onclick="window.location='/promotion'">Promotion</span>
+    </div>
+    <div data-v-76c247f8="" class="tabbar__container-item" onclick="window.location='/wallet'">
+      <svg data-v-c4b9aaee="" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 46 44" class=""><path fill="#1AB266" fill-rule="evenodd" d="M17.982 11.969 31.785 4l4.612 7.989z" clip-rule="evenodd"></path><path fill="url(#b)" fill-rule="evenodd" d="M6 12a2 2 0 0 0-2 2v28a2 2 0 0 0 2 2h36a2 2 0 0 0 2-2v-8h-8.75C31.845 34 29 31.36 29 28s2.845-6 6.25-6H44v-8a2 2 0 0 0-2-2zm25 16c0-2.164 1.856-4 4.25-4H43v8h-7.75C32.856 32 31 30.164 31 28" clip-rule="evenodd"></path><defs><linearGradient id="a" x1="22.5" x2="36" y1="4" y2="14" gradientUnits="userSpaceOnUse"><stop stop-color="#1AB266"></stop><stop offset="1" stop-color="#85daff"></stop></linearGradient><linearGradient id="b" x1="6.5" x2="35.5" y1="12" y2="44" gradientUnits="userSpaceOnUse"><stop stop-color="#1AB266"></stop><stop offset="1" stop-color="#85daff"></stop></linearGradient></defs></svg>
+      <span data-v-76c247f8="" onclick="window.location='/wallet'">Wallet</span>
+    </div>
+    <div data-v-76c247f8="" class="tabbar__container-item" onclick="window.location='/mian'">
+      <svg data-v-c4b9aaee="" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 46 44" class=""><path stroke="#1AB266" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M24 22a9 9 0 1 0 0-18 9 9 0 0 0 0 18"></path><path stroke="#1AB266" stroke-width="2" d="M7 35a9 9 0 0 1 9-9h16a9 9 0 1 1 0 18H16a9 9 0 0 1-9-9Z"></path></svg>
+      <span data-v-76c247f8="" onclick="window.location='/mian'">Account</span>
+    </div>
+  </div>
+</div>
+<script>
+    let url = window.location.pathname;
+    let check = document.querySelector(`.van-tabbar-item[data-url='${url}']`);
+    document.querySelector('#nav_checkUrl').setAttribute('data-url', url);
+    if (check) check.classList.add('block-click');
+    let pathname = document.querySelector('#nav_checkUrl').getAttribute('data-url');
+    let select = 0;
+    switch (pathname) {
+        case '/home':
+            select = 0;
+            break;
+        case '/checkIn':
+            select = 1;
+            break;
+        case '/promotion':
+            select = 2;
+            break;
+        case '/wallet':
+            select = 3;
+            break;
+        case '/mian':
+            select = 4;
+            break;
+        default:
+            break;
+    }
+
+    let arr = [
+        { id: 1, src: '/images/home.png' },
+        { id: 2, src: '/images/checkIn.png' },
+        { id: 3, src: '/images/invite.webp' },
+        { id: 4, src: '/images/wallet2.png' },
+        { id: 5, src: '/images/me2.png' },
+    ];
+</script>        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/js/client.js"></script>
+    <script>
+
+        $('#reload .van-image').click(function (e) {
+            e.preventDefault();
+            $(this).addClass('action block-click');
+            setTimeout(() => {
+                $(this).removeClass('action block-click');
+            }, 2500);
+            $.ajax({
+                type: "GET",
+                url: "/api/webapi/GetUserInfo",
+                dataType: "json",
+                success: function (response) {
+                    let user = response.data;
+                    $('.wallet-user .name').text(user.name_user);
+                    $('.money').text("₹" + user.money_user + ".00");
+                }
+            });
+        });
+        $.ajax({
+            type: "GET",
+            url: "/api/webapi/GetUserInfo",
+            dataType: "json",
+            success: function (response) {
+                let user = response.data;
+                $('.wallet-user .name').text(user.name_user);
+                $('.money').text("₹" + user.money_user + ".00");
+                $('.balance .item:eq(0) div:eq(1)').text("₹" + response.totalRecharge + ".00");
+                $('.balance .item:eq(1) div:eq(1)').text("₹" + response.totalWithdraw + ".00");
+            }
+        });
+    </script>
+</body>
+
+</html>
