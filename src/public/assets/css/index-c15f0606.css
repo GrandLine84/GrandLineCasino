@@ -81,8 +81,8 @@
     font-size: .32rem;
     font-style: normal;
     min-height: 2rem;
-    background: -webkit-linear-gradient(left, #470504 0%, #470504 100%);
-    background: linear-gradient(90deg, #470504 0%, #470504 100%);
+    background: -webkit-linear-gradient(left, #470504 0%, #750402 100%);
+    background: linear-gradient(90deg, #470504 0%, #750402 100%);
     padding: .32rem;
     display: -webkit-box;
     display: -webkit-flex;

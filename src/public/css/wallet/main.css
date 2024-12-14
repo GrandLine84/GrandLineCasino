@@ -898,8 +898,8 @@ img[data-v-7b9b9922] {
     top: 0;
     height: 1.33333rem;
     line-height: 1.33333rem;
-    background: -webkit-linear-gradient(left, #3BAF4C 0%, #00D08A 100%);
-    background: linear-gradient(90deg, #3BAF4C 0%, #00D08A 100%);
+    background: -webkit-linear-gradient(left, #470504 0%, #750402 100%);
+    background: linear-gradient(90deg, #470504 0%, #750402 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1160,8 +1160,8 @@ img[data-v-7b9b9922] {
     letter-spacing: .01333rem;
     border: none;
     border-radius: 1.06667rem;
-    background: -webkit-linear-gradient(top, #3BAF4C 0%, #00D08A 100%);
-    background: linear-gradient(180deg, #3BAF4C 0%, #00D08A 100%);
+    background: -webkit-linear-gradient(top, #470504 0%, #750402 100%);
+    background: linear-gradient(180deg, #470504 0%, #750402 100%);
 }
 
 .mian-from .mian-btn .gradient span[data-v-a0753f48] {
