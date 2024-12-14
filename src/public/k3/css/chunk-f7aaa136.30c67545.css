@@ -288,7 +288,7 @@
 }
 
 .game .page-nav .arr.action[data-v-03b808c2] {
-    background-color: #1AB266 !important;
+    background-color: #750402 !important;
 }
 
 .game .rule-box .title[data-v-03b808c2] {
@@ -598,7 +598,7 @@
     display: inline-block;
     height: 3.09333rem;
     margin-top: 0.48rem;
-    background: #1AB266;
+    background: #750402;
     border-radius: 0.18667rem;
     position: relative;
     padding: 0.26667rem;
@@ -649,7 +649,7 @@
 .d5-slot-box[data-v-03b808c2]:before {
     left: -.02667rem;
     border-right: .53333rem solid transparent;
-    border-left: .53333rem solid #1AB266;
+    border-left: .53333rem solid #750402;
 }
 
 .d5-slot-box[data-v-03b808c2]:after,
@@ -669,7 +669,7 @@
 .d5-slot-box[data-v-03b808c2]:after {
     right: -.02667rem;
     border-left: .53333rem solid transparent;
-    border-right: .53333rem solid #1AB266;
+    border-right: .53333rem solid #750402;
 }
 
 .slot-column[data-v-03b808c2] {
@@ -886,7 +886,7 @@
     height: 0.8rem;
     line-height: .8rem;
     margin-left: 0.12rem;
-    background: #1AB266;
+    background: #750402;
     border-radius: 0.05333rem;
     color: #ffffff;
     font-weight: 700;
@@ -1123,7 +1123,7 @@
 
 .game-list .list .wrap[data-v-03b808c2] {
     padding: 0.4rem;
-    background-color: #1AB266;
+    background-color: #750402;
     border-radius: 0.13333rem 0.13333rem 0 0;
     font-size: .34667rem;
     font-weight: 750;
@@ -1672,7 +1672,7 @@
 
 .game .bet-box .bet-tab .item.action[data-v-03b808c2] {
     color: #fff;
-    background-color: #1AB266 !important;
+    background-color: #750402 !important;
 }
 
 .game .bet-box .bet-con .check-box .item .li[data-v-03b808c2] {
